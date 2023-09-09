@@ -1,6 +1,6 @@
 <script lang="ts">
   import { Presentation, Slide, Stack, Step } from '@components'
-  import {InfoIcon, LayersIcon, ThumbsUpIcon, ToolIcon, UsersIcon} from 'svelte-feather-icons'
+  import {InfoIcon, LayersIcon, ThumbsUpIcon, ToolIcon, UsersIcon, AwardIcon, EyeIcon, DollarSignIcon} from 'svelte-feather-icons'
 </script>
 
 <Presentation>
@@ -26,24 +26,31 @@
   </Slide>
   <Slide animate>
     <div class="gap-20">
-      <h2 class="font-bold m-10 flex justify-center items-center text-[#08FFD0] gap-5 text-5xl">
-        <LayersIcon size="40" />SUMÁRIO
+      <h2 class="font-bold m-10 flex justify-center items-center text- gap-5 text-5xl">
+        CONTEXTUALIZANDO...
       </h2>
       <div class="p-5 m-10 rounded-tr-full rounded-bl-full bg-[#758BFD]">
-        <ul style="text-shadow: 0 10px 20px black;" class="flex text-xl gap-5 p-5">
-          <li>1. O que somos</li>
-          <li>2. Estrutura</li>
-          <li>4. Análise SWOT</li>
-          <li>3. Missão, Visão e Valores</li>
-          <li>5. Informações Adicionais</li>
-          <li>6. Equipe</li>
+        <!--<ul style="text-shadow: 0 10px 20px black;" class="flex text-xl gap-5 p-5">-->
+        <!--  <li>1. O que somos</li>-->
+        <!--  <li>2. Estrutura</li>-->
+        <!--  <li>4. Análise SWOT</li>-->
+        <!--  <li>3. Missão, Visão e Valores</li>-->
+        <!--  <li>5. Informações Adicionais</li>-->
+        <!--  <li>6. Equipe</li>-->
+        <!--</ul>-->
+        <ul class="p-5 gap-10">
+          <li class="flex items-center justify-center"> <span class="p-5 m-5 rounded-full bg-blue-600"></span> Conceitos
+            básicos</li>
+          <li class="flex items-center justify-center"> <span class="p-5 m-5 rounded-full bg-green-600"></span>
+            Conceitos tecnicos</li>
         </ul>
       </div>
     </div>
   </Slide>
   <Slide animate>
     <div class="gap-20">
-      <h2 class="font-bold m-10 flex justify-center items-center text-[#08FFD0] gap-5 text-5xl">
+      <h2 style="text-shadow: 0 10px 20px blue;"
+        class="font-bold m-10 flex justify-center items-center text-blue-600 gap-5 text-5xl">
         <UsersIcon size="40" />O QUE SOMOS?
       </h2>
       <div class="p-5 m-10 rounded-tr-full rounded-bl-full bg-[#758BFD]">
@@ -57,18 +64,135 @@
   </Slide>
   <Slide animate>
     <div class="gap-20">
-      <h2 class="font-bold m-10 flex justify-center items-center text-[#08FFD0] gap-5 text-5xl">
+      <h2 style="text-shadow: 0 10px 20px blue;"
+        class="font-bold m-10 flex justify-center items-center text-blue-600 gap-5 text-5xl">
         <UsersIcon size="40" />O QUE SOMOS?
       </h2>
       <div class="p-5 m-10 rounded-tr-full rounded-bl-full bg-[#758BFD]">
         <h3 style="text-shadow: 0 10px 20px black;" class="p-5 text-1xl">
           "PROFISSIONALISMO" é a palavra chave de nossos produtos e serviços. Nossas criações são modernas e
-          profissionais tal comos temos funções específicas para cada indivíduo em nossos setores, Eles apresentados no
-          próximo slide
+          profissionais tal como nossa missão, visão e valores são baseadas nestes aspectos
         </h3>
       </div>
     </div>
   </Slide>
+  
+  <Slide animate>
+    <div class="">
+      <div class="flex flex-col justify-center scroll-x-scroll">
+        <h2 style="text-shadow: 0 10px 20px blue;"
+        class="font-bold m-10 flex justify-center items-center text-blue-600 gap-5 text-5xl">
+          <AwardIcon size="40" />MISSÃO
+        </h2>
+        <div class="p-5 m-10 rounded-tr-full rounded-bl-full bg-[#758BFD]">
+          <h3 style="text-shadow: 0 10px 20px black;" class="p-5 text-1xl">
+            Agregar valor aos clientes com websites estáticos belos e profissionais, com um serviço de qualiade e muito
+            rentável.
+          </h3>
+        </div>
+      </div>
+    </div>
+  </Slide>
+  <Slide animate>
+    <div class="">
+      <div class="flex flex-col justify-center scroll-x-scroll">
+        <h2 style="text-shadow: 0 10px 20px blue;"
+        class="font-bold m-10 flex justify-center items-center text-blue-600 gap-5 text-5xl" >
+          <EyeIcon size="40" />VISÃO
+        </h2>
+        <div class="p-5 m-10 rounded-tr-full rounded-bl-full bg-[#758BFD]">
+          <h3 style="text-shadow: 0 10px 20px black;" class="p-5 text-1xl">
+            Estar dentre as principais empresas de desenvolvimento web, assim trazendo relevância a marca
+          </h3>
+        </div>
+      </div>
+    </div>
+  </Slide>
+  <Slide animate>
+    <div class="">
+      <div class="flex flex-col justify-center scroll-x-scroll">
+        <h2 style="text-shadow: 0 10px 20px blue;"
+        class="font-bold m-10 flex justify-center items-center text-blue-600 gap-5 text-5xl" >
+          <DollarSignIcon size="40" />VALORES
+        </h2>
+        <div class="p-5 m-10 rounded-tr-full rounded-bl-full bg-[#758BFD]">
+          <h3 style="text-shadow: 0 10px 20px black;" class="p-5 text-1xl">
+            Produtividade, Profissionalismo, Modernidade, Proatividade, Responsabilidade, Conectividade e Adaptabilidade
+          </h3>
+        </div>
+      </div>
+    </div>
+  </Slide>
+  
+    <Slide animate>
+    <div class="">
+      <div class="flex flex-col justify-center scroll-x-scroll">
+        <h2 style="text-shadow: 0 10px 20px blue;"
+        class="font-bold m-10 flex justify-center items-center text-blue-600 gap-5 text-5xl" >
+          <LayersIcon size="40" />SWOT INTERNAL
+        </h2>
+              <div class="flex justify-center items-center">
+        <div
+          class="flex flex-col justify-center items-center flex rounded-tr-full rounded-bl-full bg-[#758BFD]">
+          <h1 class="p-5 text-5xl">STRENGTHS</h1>
+          <ol style="text-shadow: 0 10px 20px black;" class="p-5 text-3xl flex flex-col gap-5">
+            <li>1. COMPROMETIMENTO</li>
+            <li>2. PROFISSIONALISMO</li>
+            <li>3. ADAPTAPTABILIDADE</li>
+            <li>4. MODERNIDADE</li>
+          </ol>
+        </div>
+        
+        <div
+          class="flex flex-col justify-center items-center flex rounded-tr-full rounded-bl-full bg-[#758BFD]">
+          <h1 class="p-5 text-5xl">WEAKNESS</h1>
+          <ol style="text-shadow: 0 10px 20px black;" class="p-5 text-3xl flex flex-col gap-5">
+            <li>1. ACESSIBILIDADE</li>
+            <li>2. COMUNICAÇÃO</li>
+            <li>3. COMPATIBILIDADE</li>
+            <li>4. CONFIABILIDADE</li>
+          </ol>
+        </div>
+        
+      </div>
+      </div>
+    </div>
+  </Slide>
+      <Slide animate>
+    <div class="">
+      <div class="flex flex-col justify-center scroll-x-scroll">
+        <h2 style="text-shadow: 0 10px 20px blue;"
+        class="font-bold m-10 flex justify-center items-center text-blue-600 gap-5 text-5xl" >
+          <LayersIcon size="40" />SWOT EXTERNAL
+        </h2>
+              <div class="flex justify-center items-center">
+        <div
+          class="flex flex-col justify-center items-center flex rounded-tr-full rounded-bl-full bg-[#758BFD]">
+          <h1 class="p-5 text-5xl">OPORTUNITIES</h1>
+          <ol style="text-shadow: 0 10px 20px black;" class="p-5 text-3xl flex flex-col gap-5">
+            <li>1. LEADS</li>
+            <li>2. CONTRATAÇÕES</li>
+            <li>3. EVOLUÇÃO</li>
+            <li>4. INVESTIMENTO</li>
+          </ol>
+        </div>
+        
+        <div
+          class="flex flex-col justify-center items-center flex rounded-tr-full rounded-bl-full bg-[#758BFD]">
+          <h1 class="p-5 text-5xl">THREATS</h1>
+          <ol style="text-shadow: 0 10px 20px black;" class="p-5 text-3xl flex flex-col gap-5">
+            <li>1. STARTUPS</li>
+            <li>2. CONCORRÊNCIA</li>
+            <li>3. MUDANÇAS TECNOLÓGICAS</li>
+            <li>4. DECADÊNCIA DIGITAL</li>
+          </ol>
+        </div>
+        
+      </div>
+      </div>
+    </div>
+  </Slide>
+  
   <Slide animate>
     <h2 class="font-bold m-10 flex justify-center items-center text-[#08FFD0] gap-5 text-5xl">
       <ToolIcon size="40" />ESTRUTURA
@@ -106,47 +230,5 @@
         </ol>
       </Step>
     </Stack>
-  </Slide>
-  <Slide animate>
-    <div class="">
-      <div class="flex flex-col justify-center scroll-x-scroll">
-          <h2 class="font-bold m-10 flex justify-center items-center text-[#08FFD0] gap-5 text-5xl">
-            <LayersIcon size="40" />MISSÃO
-          </h2>
-                <div class="p-5 m-10 rounded-tr-full rounded-bl-full bg-[#758BFD]">
-        <h3 style="text-shadow: 0 10px 20px black;" class="p-5 text-1xl">
-          Agregar valor aos clientes com websites estáticos belos e profissionais, com um serviço de qualiade e muito rentável.
-        </h3>
-      </div>
-      </div>
-    </div>
-  </Slide>
-    <Slide animate>
-    <div class="">
-      <div class="flex flex-col justify-center scroll-x-scroll">
-          <h2 class="font-bold m-10 flex justify-center items-center text-[#08FFD0] gap-5 text-5xl">
-            <LayersIcon size="40" />VISÃO
-          </h2>
-                <div class="p-5 m-10 rounded-tr-full rounded-bl-full bg-[#758BFD]">
-        <h3 style="text-shadow: 0 10px 20px black;" class="p-5 text-1xl">
-          Estar dentre as principais empresas de desenvolvimento web, assim trazendo relevância a marca
-        </h3>
-      </div>
-      </div>
-    </div>
-  </Slide>
-    <Slide animate>
-    <div class="">
-      <div class="flex flex-col justify-center scroll-x-scroll">
-          <h2 class="font-bold m-10 flex justify-center items-center text-[#08FFD0] gap-5 text-5xl">
-            <LayersIcon size="40" />VALORES
-          </h2>
-                <div class="p-5 m-10 rounded-tr-full rounded-bl-full bg-[#758BFD]">
-        <h3 style="text-shadow: 0 10px 20px black;" class="p-5 text-1xl">
-          Produtividade, Profissionalismo, Modernidade, Proatividade, Responsabilidade, Conectividade e Adaptabilidade
-        </h3>
-      </div>
-      </div>
-    </div>
   </Slide>
 </Presentation>
