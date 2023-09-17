@@ -3,12 +3,12 @@
 
 :root {
   --r-background-color: #121313;
-  --r-main-font: "Manrope Variable";
+  --r-main-font: "Fragment Mono";
   --r-main-font-size: 42px;
   --r-main-color: #f7fff7;
-  --r-heading-font: "Manrope";
-  --r-code-font: "JetBrains Mono Variable";
-  --r-link-color: #08FFD0;
+  --r-heading-font: "Audio Wide";
+  --r-code-font: "";
+  --r-link-color: #08ffd0;
 }
 
 /* required for Reveal.js to work */
