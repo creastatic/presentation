@@ -1,6 +1,6 @@
 <script lang="ts">
   import { Presentation, Slide, Stack, Step } from '@components'
-  import {InfoIcon, LayersIcon, ThumbsUpIcon, ToolIcon, UsersIcon, AwardIcon, EyeIcon, DollarSignIcon, FilterIcon, LogInIcon, LogOutIcon, HelpCircleIcon, Share2Icon} from 'svelte-feather-icons'
+  import {InfoIcon, LayersIcon, ThumbsUpIcon, ToolIcon, UsersIcon, AwardIcon, EyeIcon, DollarSignIcon, FilterIcon, LogInIcon, LogOutIcon, HelpCircleIcon, Share2Icon, ChevronsUpIcon} from 'svelte-feather-icons'
 </script>
 
 <Presentation>
@@ -8,8 +8,7 @@
     <div class="flex">
       <div class=" p-5 ">
         <img class="w-[40vw] rounded-full"
-          src="https://res.cloudinary.com/dwvmkvvrl/image/upload/v1694876883/g1kyh34lgk3ub06znbjg.png"
-          alt="" />
+          src="https://res.cloudinary.com/dwvmkvvrl/image/upload/v1694876883/g1kyh34lgk3ub06znbjg.png" alt="" />
       </div>
       <div style="text-shadow: 0 10px 20px black;"
         class="bg-[#758BFD] w-full flex items-center justify-center font-bold m-10 rounded-b-xl">
@@ -30,14 +29,14 @@
   <!--      CONTEXTUALIZANDO...-->
   <!--    </h2>-->
   <!--    <div class="p-5 m-10 rounded-b-xl bg-[#758BFD]">-->
-        <!--<ul style="text-shadow: 0 10px 20px black;" class="flex text-xl gap-5 p-5">-->
-        <!--  <li>1. O que somos</li>-->
-        <!--  <li>2. Estrutura</li>-->
-        <!--  <li>4. Análise SWOT</li>-->
-        <!--  <li>3. Missão, Visão e Valores</li>-->
-        <!--  <li>5. Informações Adicionais</li>-->
-        <!--  <li>6. Equipe</li>-->
-        <!--</ul>-->
+  <!--<ul style="text-shadow: 0 10px 20px black;" class="flex text-xl gap-5 p-5">-->
+  <!--  <li>1. O que somos</li>-->
+  <!--  <li>2. Estrutura</li>-->
+  <!--  <li>4. Análise SWOT</li>-->
+  <!--  <li>3. Missão, Visão e Valores</li>-->
+  <!--  <li>5. Informações Adicionais</li>-->
+  <!--  <li>6. Equipe</li>-->
+  <!--</ul>-->
   <!--      <ul class="p-5 gap-10">-->
   <!--        <li class="flex items-center justify-center"> <span class="p-5 m-5 rounded-full bg-blue-600"></span> Conceitos-->
   <!--          básicos</li>-->
@@ -55,7 +54,8 @@
       </h2>
       <div class="p-5 m-10 rounded-b-xl bg-[#758BFD]">
         <h3 style="text-shadow: 0 10px 20px black;" class="p-5 text-1xl">
-          A CREASTATIC é uma empresa virtual <span class="font-highlight font-light" >E-business</span>, aberta sempre a evolução e ao profissionalismo. Nós somos uma
+          A CREASTATIC é uma empresa virtual <span class="font-highlight font-light">E-business</span>, aberta sempre a
+          evolução e ao profissionalismo. Nós somos uma
           empresa com foco na criação de web apps estáticos, e viemos para resolver um problema muito comum no mundo
           web: "A falta de profissionalismo e progressividade em sites estáticos"
         </h3>
@@ -70,7 +70,8 @@
       </h2>
       <div class="p-5 m-10 rounded-b-xl bg-[#758BFD]">
         <h3 style="text-shadow: 0 10px 20px black;" class="p-5 text-1xl">
-          <span class="font-highlight font-light " >PROFISSIONALISMO</span> é a palavra chave de nossos produtos e serviços. Nossas criações são modernas e
+          <span class="font-highlight font-light ">PROFISSIONALISMO</span> é a palavra chave de nossos produtos e
+          serviços. Nossas criações são modernas e
           profissionais tal como nossa missão, visão e valores são baseadas nestes aspectos
         </h3>
       </div>
@@ -85,7 +86,9 @@
           <AwardIcon size="40" />MISSÃO
         </h2>
         <div class="p-5 m-10 rounded-b-xl bg-[#758BFD]">
-          <h3 style="text-shadow: 0 10px 20px black;" class="p-5 text-1xl">Agregar valor aos clientes com websites estáticos belos e profissionais, com um serviço de   <span class="font-highlight font-light" >QUALIDADE</span> e muito
+          <h3 style="text-shadow: 0 10px 20px black;" class="p-5 text-1xl">Agregar valor aos clientes com websites
+            estáticos belos e profissionais, com um serviço de <span class="font-highlight font-light">QUALIDADE</span>
+            e muito
             rentável
           </h3>
         </div>
@@ -101,7 +104,8 @@
         </h2>
         <div class="p-5 m-10 rounded-b-xl bg-[#758BFD]">
           <h3 style="text-shadow: 0 10px 20px black;" class="p-5 text-1xl">
-            Estar dentre as principais empresas de desenvolvimento web, assim trazendo relevância a marca e assim elevar nossa             <span class="font-highlight font-light" >INDENTIDADE </span> para o próximo nível
+            Estar dentre as principais empresas de desenvolvimento web, assim trazendo relevância a marca e assim elevar
+            nossa <span class="font-highlight font-light">INDENTIDADE </span> para o próximo nível
           </h3>
         </div>
       </div>
@@ -132,7 +136,7 @@
         </h2>
         <div class="flex justify-center items-center gap-5">
           <div class="flex flex-col justify-center items-center flex rounded-b-xl bg-[#758BFD]">
-            <h1 class="p-5 text-5xl font-highlight">STRENGTHS <br />-<br />  <span>forças</span></h1>
+            <h1 class="p-5 text-5xl font-highlight">STRENGTHS <br />-<br /> <span>forças</span></h1>
             <ol style="text-shadow: 0 10px 20px black;" class="p-5 text-3xl flex flex-col gap-5">
               <li>1. COMPROMETIMENTO</li>
               <li>2. PROFISSIONALISMO</li>
@@ -142,7 +146,7 @@
           </div>
           
           <div class="flex flex-col justify-center items-center flex rounded-b-xl bg-[#758BFD]">
-            <h1 class="p-5 text-5xl font-highlight">WEAKNESS <br />-<br />  <span>fraquesas</span></h1>
+            <h1 class="p-5 text-5xl font-highlight">WEAKNESS <br />-<br /> <span>fraquesas</span></h1>
             <ol style="text-shadow: 0 10px 20px black;" class="p-5 text-3xl flex flex-col gap-5">
               <li>1. ACESSIBILIDADE</li>
               <li>2. COMUNICAÇÃO</li>
@@ -164,7 +168,7 @@
         </h2>
         <div class="flex justify-center items-center gap-5">
           <div class="flex flex-col justify-center items-center flex rounded-b-xl bg-[#758BFD]">
-            <h1 class="p-5 text-5xl font-highlight">OPORTUNITIES <br />-<br />  <span>oportunidades</span></h1>
+            <h1 class="p-5 text-5xl font-highlight">OPORTUNITIES <br />-<br /> <span>oportunidades</span></h1>
             <ol style="text-shadow: 0 10px 20px black;" class="p-5 text-3xl flex flex-col gap-5">
               <li>1. LEADS</li>
               <li>2. CONTRATAÇÕES</li>
@@ -174,7 +178,7 @@
           </div>
           
           <div class="flex flex-col justify-center items-center flex rounded-b-xl bg-[#758BFD]">
-            <h1 class="p-5 text-5xl font-highlight">THREATS <br />-<br />  <span>ameaças</span></h1>
+            <h1 class="p-5 text-5xl font-highlight">THREATS <br />-<br /> <span>ameaças</span></h1>
             <ol style="text-shadow: 0 10px 20px black;" class="p-5 text-3xl flex flex-col gap-5">
               <li>1. STARTUPS</li>
               <li>2. CONCORRÊNCIA</li>
@@ -252,40 +256,57 @@
   <!--    </div>-->
   <!--  </div>-->
   <!--</Slide>-->
-    <Slide animate>
+  <Slide animate>
+    <section class="mt-ls p-ls mt-tbp2">
+      <div class="relative h-0 overflow-hidden max-w-full w-full" style="padding-bottom: 56.25%">
+        
+        <iframe src="https://res.cloudinary.com/dwvmkvvrl/video/upload/v1695161943/lv_0_20230919190938_kffsym.mp4" frameborder="0" allowfullscreen
+          class="absolute rounded-b-xl top-0 left-0 w-full h-full"></iframe>
+      </div>
+      <ChevronsUpIcon class="text-center mx-auto mt-5" size="40" />
+      <h2 class="text-center text-3xl py-tbp1">RESUMO DE NOSSOS SERVIÇOS</h2>
+    </section>
+  </Slide>
+  
+  <Slide animate>
     <h2 style="text-shadow: 0 10px 20px green;"
       class="font-bold m-10 flex justify-center items-center text-green-600 gap-5 text-5xl font-header">
       <Share2Icon size="40" />EQUIPE
     </h2>
     <div class="flex justify-center items-center">
       <div class="flex flex-col justify-center items-center p-5 flex rounded-b-xl bg-[#758BFD]">
-        <h1 class="p-5 text-5xl">Nossa equipe é composta por 3 pessoas físicas que exercem das mais variadas <span class="font-light font-highlight">funções</span> dentro da empresa, dentre esse s estão:</h1>
+        <h1 class="p-5 text-5xl">Nossa equipe é composta por 3 pessoas que exercem das mais variadas <span
+            class="font-light font-highlight">funções</span> dentro da empresa, dentre esses estão:</h1>
         <h2 class="text-1xl"></h2>
         <ol style="text-shadow: 0 10px 20px black;" class="p-5 text-1xl flex flex-col gap-5">
           <li>1. FRANCISNÍ GOMES, DESENVOLVEDOR</li>
           <li>2. FELYPE EMANUEL, DESIGNER DE INTERFACE</li>
-          <li>3. MATHEUS, ADM DE CONTEÚDO</li>
+          <li>3. MATHEUS ARAÚJO, ADM DE CONTEÚDO</li>
         </ol>
       </div>
     </div>
   </Slide>
-    <Slide animate class="flex">
+  <Slide animate class="flex">
     <div class="flex gap-5 justify-around items-center">
-      <div class=" gap-5 p-5 flex flex-col justify-around items-center bg-[#758BFD] px-5 rounded-t-xl">
-        <h1 class="text-7xl font-bold font-header text-start w-[70vw]">MUITO <br /> OBRIGADO!</h1>
+      <div class=" gap-5 p-5 flex justify-center items-center bg-[#758BFD] px-5 rounded-t-xl">
+        <h1 class="text-7xl font-bold font-header text-center w-[70vw]">MUITO <br /> OBRIGADO!</h1>
+        <div class=" p-5 ">
+        </div>
       </div>
     </div>
     <!--<div class="p-5">-->
     <!--  <h2 class="font-bold text-3xl">"Antes de ser ótimo em algo Eu preciso ser bom, antes de ser bom Eu preciso ser ruim, e antes de ser ruim tudo o que precisava era ter COMEÇADO"</h2>-->
     <!--</div>-->
-            <img class="w-[76vw] mx-auto rounded-b-xl"
-          src="https://res.cloudinary.com/dwvmkvvrl/image/upload/v1694876883/wwloty1k6j3kld52kipz.png"
-          alt="logo" /> <sup>de</sup>
-    <a href="mailto:creastatic@gmail.com" class="py-10 text-xl flex items-center text-green-200 justify-center gap-5 overline">
-      <HelpCircleIcon /> Alguma dúvida, envie-nos um email
+    <!--  <img class="w-[76vw] mx-auto rounded-b-xl"-->
+    <!--src="https://res.cloudinary.com/dwvmkvvrl/image/upload/v1694876883/wwloty1k6j3kld52kipz.png"-->
+    <!--alt="logo" /> <sup>de</sup>-->
+    <a href="mailto:creastatic@gmail.com"
+      class="py-10 text-xl flex items-center text-green-200 justify-center gap-5 overline">
+      <HelpCircleIcon /> Alguma dúvida?, envie-nos um email
     </a>
-        <a href="https://discord.gg/YMygZ37f" class=" text-xl flex items-center text-green-200 justify-center gap-5 overline">
-      <HelpCircleIcon /> Alguma dúvida, comunique-se no discord
+    <a href="https://discord.gg/YMygZ37f"
+      class=" text-xl flex items-center text-green-200 justify-center gap-5 overline">
+      <HelpCircleIcon /> Alguma dúvida?, contate-nos no discord
     </a>
   </Slide>
 </Presentation>
